@@ -30,14 +30,8 @@ app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:projectName', (request, response)=>{
-    const projectName = request.params.projectName.toLowerCase()
-    if(projects[projectName]){
-        response.json(projects[projectName])
-    }
-    else{
-        response.json(projects['portfolio'])
-    }
+app.get('/api', (request, response)=>{
+    response.json(projects)
 })
 
 app.listen(process.env.PORT || PORT, ()=>{
