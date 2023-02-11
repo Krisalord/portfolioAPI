@@ -9,18 +9,21 @@ const projects = {
     'portfolio': {
         'name': 'Portfolio Website',
         'description': 'A website to showcase my portfolio of completed projects',
+        'languages': 'HTML, CSS, JavaScript',
         'link': 'https://arturmotin.netlify.app',
         'github': 'https://github.com/Krisalord/Portfolio'
     },
     'portfolioAPI': {
         'name': 'Portfolio API',
         'description': 'This is my first custom API that was created to host app projects for portfolio',
-        'link': '',
-        'github': ''
+        'languages': 'JavaScript, nodeJS, Express',
+        'link': 'https://github.com/Krisalord/portfolioAPI',
+        'github': 'https://github.com/Krisalord/portfolioAPI'
     },
     'ecommerce': {
         'name': 'E-commerce Website',
         'description': 'An online store template',
+        'languages': 'HTML, CSS, JavaScript',
         'link': 'https://arturmotinecom.netlify.app',
         'github': 'https://github.com/Krisalord/EcommerceWebsite'
     }
